@@ -21,6 +21,7 @@ public class Main {
             System.out.println("Fallo al cobrar la apuesta");
         }
         mi_dinero = miApuesta.getDinero_disp();
+        System.out.println(" MENSAJE ------");
         System.out.println("El dinero que tengo tras las apuestas es " + mi_dinero);
     }
 }
