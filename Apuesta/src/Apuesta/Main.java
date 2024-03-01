@@ -22,6 +22,6 @@ public class Main {
         }
         mi_dinero = miApuesta.getDinero_disp();
         System.out.println(" MENSAJE ------");
-        System.out.println("El dinero que tengo tras las apuestas es " + mi_dinero);
+        System.out.println("El DINERO que tengo tras las apuestas es " + mi_dinero);
     }
 }
