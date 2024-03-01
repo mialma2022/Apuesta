@@ -71,7 +71,7 @@ public class Apuesta {
     void cobrar_apuesta(int cantidad_goles_local, int cantidad_goles_visit) throws Exception {
 
         if (comprobar_resultado(cantidad_goles_local, cantidad_goles_visit) == false) {
-            throw new Exception("No se puede cobrar una apuesta no acertada");
+            throw new Exception("No se puede cobrar una apuesta NO ACERTADA.");
         }
         dinero_disp = dinero_disp * 10;
 
